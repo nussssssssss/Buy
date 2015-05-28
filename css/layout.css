@@ -1,0 +1,37 @@
+﻿.a{
+    background-color:rgba(252, 93, 93, 1);
+    height: 150px;
+
+}
+.b {
+
+    height:50px;
+}
+
+.container .row.c {
+	height: 100px;
+    color: white;
+	background-position: initial;
+    background-image: linear-gradient(45deg, rgb(2, 0, 49) 0%, rgb(192, 16, 252) 100%);
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;
+	box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+}
+.container .d {
+
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.container .row.e {
+    height:144px;
+}
+.container .row.f .panel-default .table tr th {
+
+     border-color:#DDD;
+}
+

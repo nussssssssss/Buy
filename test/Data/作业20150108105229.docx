@@ -1,0 +1,248 @@
+·  
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+<script src="dist/js/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="dist/css/bootstrap.min.css" /> 
+<script src="dist/js/bootstrap.min.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	74°作业系统
+</title><link rel="stylesheet" href="css/layout.css" />
+<style >
+ .container .row.f .panel-danger .table tr th {
+border-color:#DDD;
+}
+ button, input, optgroup, select, textarea {
+    margin: 0px 0px 0px;
+    color: inherit;
+}
+    .auto-style1 {
+        width: 217px
+    }
+    .auto-style2 {
+        width: 150px;
+    }
+    .auto-style3 {
+        width: 99px;
+    }
+    .auto-style4 {
+        width: 47px;
+    }
+</style>
+</head>
+<body>
+    <form method="post" action="teacher.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="gkiCdS7QVHDo705IXBCsn1MMQyl9EF7Tk1hvs7pLsxPpiePs5CPMFZjeSjWbxQidZCFqBesh2nun2ezYRW2OtnGx+WOEcVvK7TiRzwNAp4gmQuIoqB/e3gbsEzmbq+6xfcEhKzQsge7t/aWX5iUSgllw/wlrMQjY2b64oYmv2PrgeV0VyeWesF1yZa7+eDSFptIrPp1PLFc07LIDUaSghSUpNAQdgrzDQQVrgANDPD9dCRbF1tp8+T1PJEWIjGi0B3o33Ck979wB0+6yHT4r8wz3oUVeQaKtmREsQrfWFgPal1GNbATUEKRl0tJYcYWahjFrJQG80lbCWsCj4UFSXmSWWXYElAwOh+9rWyDFYHmLEERkEaKchggGS7GEOMhShIbASxww1j/LbiPg6iyehOM41tz1G8MLwgzYKu6+KCO6npcEW4xEp1NLlGhOcjsgchmOKsqmarXngQqN3oQTX5FGgOY3ABp4p4Q0ZY0qX+KctP0Rv47Hlu4/wUykAD5hpLtYfVTy9QLTExeF6sresaeGtGYsnAhvc+BtvY+GTn/jf1qsXecEBIoqeR5RVx82vBXvErYfVcRJPh+wB6VQce3yK6i1G4OoQ/HAWVlB0pbUgTWo56huI+sYY6ydde/x1HvRk9o31cRE83dEngtwp943BOGcXTKX7AeqJZg3PX24WN6BxiETV9ff5bel72A4/Q7L9zH1Fddq+DSjJfJO1Ex5JjhOnsmPXimp7ewevwMV8IcOOVBXJKsYYaaM+nD6R2el6lc4JMa2TRwnJ038dCg+BYWlCBEeHX2B2pobY3e56QTafiOgklhhoa8E9SKXOO+ta8lNf7tQPilhlzNKd0YmcAdnoTUM/ikpm8go9xb4LYjtQ5KHNx7Vn1CLr4vCyXqch3dqdsop5qaDN7/BMeO9MExm3zlDyHp5oc2+b6uOJQ7raZi2wC8CPnO9QYcJkUhcKXFj4Yr9r0cJtyxttEoZ3UYjK65TENgFDnky8umTzYljQkR6rYxOLxSrDceU7msltmOm8MNdHrs4s5nbedtCn282fJf0ZeUxKmpWkYxQp514m9wJnrgjYnG5WRVjCk03/8lK6/MzcJzCnjtkH41/MVozoWtZAnKRtdTMNKYtTY9qKDilk8O+Nll+uuGQMiZiimgYFr+VRN6NvCYROww+HHfQIP436h5I/65X2cFBHoDZdN3h2X5tJpjKTO/RE6RWmUyRFrGF96QV6Ay5WPJQ2gTk1qaiLcBNjA53t/MD9wlhIe/YXpQzO0sjosAXQAIn4aK7RdESyLVLuJ9qc52H5EnbfoYbxIs968t2vBFeaMXPMhJZSHlsyfFOpURIMNgplTYtaLjF6yYPSigJJkzRByIazrXEadCfrzmRgMEFKipuWHuaRP/5FfT8XnDqiDjHDZ6mKIPHRPp41mPtCjbsVPGyPCeBAaNlG6QrTes4ONFqoVsqf4X7KB4zeFW0rAvXubi8gTuSJtGxa5sceY/aKHvD1O0i8IGbT+zV15JuKyCFOJa52ufu+J49/zLjPF1dHNU0k/G4lSIm3urMvZOyEZpe3gpYjqTRubbG63ysMPvuo93PzDzoL55PftDDfCA6S0jPI0wwu5F1UalOvPbT6XCVfM2Qf4jctCShZ0UOKf7RYv+hcvosT8B23JM4Vx0APK+2FrQgb7UH0YzLP4+h3NGH5wXoGb69b9OH080nY8IXG1AH8jndlmQ+aB+b6ffONQ6+1CgC2wLICu+3WrS/gHs2PZ9vE+szhbRDZeACPGY4bTuety8Txq3OYN+zBE8dVb14nSyG8Z9PedC2WDFWuRFZFQFlAc5wvQLu7yaCUUvmJalOSvDFeGfQ3Cyp4uQc2O1syLgRFfDsh9w4ZNYkuzp/fAkEk3Zr1sYgdweKkgL/YjdQ9x5ObpYS0TYh" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="bbtTo77YkALjyWO5kYtK5sCfwCf7uyI4JwNnAW0aJSfsOY6RhSCC1UPs89VmkzOFEbAYeyY99VqBvWA1avUlqhbjtkRfxtJ6dc4rwahBRcNKa0NIuT2RDUeprKyM/s8DAiSLbUZX6SA7M1p5Err3V+wtsuUKROjouWdSQ1Clfk/zdadnX3Q2Z97sNNRhygy2ReVpmJsdhG1cBtjlCqo2pjjb1e6EGFAyJZw1vSmRSeHytsnoWdgi1qRZqW0hvuiXiXjKb1N193/iTzSi0+bjhBjuNnX/UTwAs2AlueyNiv0lIhLR3mAq7azl3iDbUrh7Ljkb+qOz2KDlO5AIocl4z9PpUScfM9yzcEpeOyk0TBYm9OZl2RUqgnXDlqk0k4WzDBxsMrzV8JlWokpfR+UEyf+7ycGbLIJ5KrAT/aLXcgfpZhfaM8U6ZLvOZdB0Ooxe93FsL2BPpMdrJIrIyL+eU4b44ZBHm4+XKsTuOWiResw15Gmio5kPyTpWK8XMncMjzLvFgtKjNtotMyIWPfAlqd0XODrltKb9MfJ8yzfBRjosnZaKHz+5oulW8nRwv8zz6sRl4cqg8MKymOy1NkMpwqeTOLuJJ1Q1gDFsw/y7rZzX1tRfaLAxtsarTrqepGQaBY0CfFfDO7OQFcYhzmMNAahSG/DFmDl2pOdCxsorXVXeyw37k40QVvtn1LUlQubD" />
+</div>
+    <div class="container-fluid">
+    
+        <div class="row a">
+            
+            <div class="col-md-12">
+                <div class="page-header">
+                <h1>74°HMSystem<small>Please input your homework ON TIME</small></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row b">
+                <nav class="navbar navbar-default" role="navigation">
+                <ul class="nav navbar-nav">
+                     <li class="active" role="presentation"><a href="teacher.aspx" >主页</a></li>
+                     <li><a href="teacher2.aspx">学生管理</a></li>
+                     <li><a href="teacher3.aspx">添加学生</a></li>
+                     <li><a href="teacher4.aspx">发布作业</a></li>
+                </ul>
+
+                </nav>
+        </div>
+        <div class="row c">
+            <div class="d">
+            <p>XXX老师，欢迎来到74°作业系统。</p>
+                   今天是2014年X月X日星期X
+
+            </div> 
+    
+      
+        
+        </div>
+
+        <div class="row f">
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    姓名：
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 上传时间：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 下载该作业</span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;成绩：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;批阅时间：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 评分&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input type="submit" name="Button4" value="完成" id="Button4" />
+                    </span></div>
+                <!--<div class="panel-body">
+                    本次作业应交30人，实际25人
+                </div>
+                 -->
+                <!--Table-->
+
+                   
+        
+            </div>
+        </div>
+    </div> 
+    
+
+
+
+
+    <div style ="margin-left :98px">
+        <div>
+	<table cellspacing="0" cellpadding="4" id="GridView1" style="color:#333333;font-size:20px;width:1170px;border-collapse:collapse;">
+		<tr style="color:White;background-color:#507CD1;font-weight:bold;">
+			<th scope="col">学号</th><th scope="col">成绩</th><th scope="col">姓名</th><th scope="col">班级</th><th scope="col">评分</th>
+		</tr><tr style="color:#333333;background-color:#EFF3FB;">
+			<td>0101      </td><td>77</td><td>张小三</td><td>软件一班</td><td>
+                     
+                      <div id="GridView1_Panel1_0">
+				 
+                      <input name="GridView1$ctl02$TextBox6" type="text" id="GridView1_TextBox6_0" /> 
+                      <input type="button" name="GridView1$ctl02$Button1" value="Button" onclick="javascript:__doPostBack(&#39;GridView1$ctl02$Button1&#39;,&#39;&#39;)" id="GridView1_Button1_0" /> 
+                          <input type="submit" name="GridView1$ctl02$Button2" value="下载" id="GridView1_Button2_0" />
+                      
+                     
+			</div> 
+                  </td>
+		</tr><tr style="color:#333333;background-color:White;">
+			<td>0401      </td><td>33</td><td>李小四</td><td>软件四班</td><td>
+                     
+                      <div id="GridView1_Panel1_1">
+				 
+                      <input name="GridView1$ctl03$TextBox6" type="text" id="GridView1_TextBox6_1" /> 
+                      <input type="button" name="GridView1$ctl03$Button1" value="Button" onclick="javascript:__doPostBack(&#39;GridView1$ctl03$Button1&#39;,&#39;&#39;)" id="GridView1_Button1_1" /> 
+                          <input type="submit" name="GridView1$ctl03$Button2" value="下载" id="GridView1_Button2_1" />
+                      
+                     
+			</div> 
+                  </td>
+		</tr><tr style="color:#333333;background-color:#EFF3FB;">
+			<td>0421      </td><td>11</td><td>小李</td><td>五班</td><td>
+                     
+                      <div id="GridView1_Panel1_2">
+				 
+                      <input name="GridView1$ctl04$TextBox6" type="text" id="GridView1_TextBox6_2" /> 
+                      <input type="button" name="GridView1$ctl04$Button1" value="Button" onclick="javascript:__doPostBack(&#39;GridView1$ctl04$Button1&#39;,&#39;&#39;)" id="GridView1_Button1_2" /> 
+                          <input type="submit" name="GridView1$ctl04$Button2" value="下载" id="GridView1_Button2_2" />
+                      
+                     
+			</div> 
+                  </td>
+		</tr><tr style="color:#333333;background-color:White;">
+			<td>0501      </td><td>99</td><td>李小白</td><td>软件五班</td><td>
+                     
+                      <div id="GridView1_Panel1_3">
+				 
+                      <input name="GridView1$ctl05$TextBox6" type="text" id="GridView1_TextBox6_3" /> 
+                      <input type="button" name="GridView1$ctl05$Button1" value="Button" onclick="javascript:__doPostBack(&#39;GridView1$ctl05$Button1&#39;,&#39;&#39;)" id="GridView1_Button1_3" /> 
+                          <input type="submit" name="GridView1$ctl05$Button2" value="下载" id="GridView1_Button2_3" />
+                      
+                     
+			</div> 
+                  </td>
+		</tr><tr style="color:#333333;background-color:#EFF3FB;">
+			<td>1201      </td><td>45</td><td>卡小柒</td><td>软件一班</td><td>
+                     
+                      <div id="GridView1_Panel1_4">
+				 
+                      <input name="GridView1$ctl06$TextBox6" type="text" id="GridView1_TextBox6_4" /> 
+                      <input type="button" name="GridView1$ctl06$Button1" value="Button" onclick="javascript:__doPostBack(&#39;GridView1$ctl06$Button1&#39;,&#39;&#39;)" id="GridView1_Button1_4" /> 
+                          <input type="submit" name="GridView1$ctl06$Button2" value="下载" id="GridView1_Button2_4" />
+                      
+                     
+			</div> 
+                  </td>
+		</tr><tr style="color:#333333;background-color:White;">
+			<td>507       </td><td>22</td><td>富奶奶</td><td>软件五班</td><td>
+                     
+                      <div id="GridView1_Panel1_5">
+				 
+                      <input name="GridView1$ctl07$TextBox6" type="text" id="GridView1_TextBox6_5" /> 
+                      <input type="button" name="GridView1$ctl07$Button1" value="Button" onclick="javascript:__doPostBack(&#39;GridView1$ctl07$Button1&#39;,&#39;&#39;)" id="GridView1_Button1_5" /> 
+                          <input type="submit" name="GridView1$ctl07$Button2" value="下载" id="GridView1_Button2_5" />
+                      
+                     
+			</div> 
+                  </td>
+		</tr><tr style="color:#333333;background-color:#EFF3FB;">
+			<td>516       </td><td>&nbsp;</td><td>刘邦邦</td><td>软件五班</td><td>
+                     
+                      <div id="GridView1_Panel1_6">
+				 
+                      <input name="GridView1$ctl08$TextBox6" type="text" id="GridView1_TextBox6_6" /> 
+                      <input type="button" name="GridView1$ctl08$Button1" value="Button" onclick="javascript:__doPostBack(&#39;GridView1$ctl08$Button1&#39;,&#39;&#39;)" id="GridView1_Button1_6" /> 
+                          <input type="submit" name="GridView1$ctl08$Button2" value="下载" id="GridView1_Button2_6" />
+                      
+                     
+			</div> 
+                  </td>
+		</tr><tr style="color:#333333;background-color:White;">
+			<td>517       </td><td>&nbsp;</td><td>任小花</td><td>软件五班</td><td>
+                     
+                      <div id="GridView1_Panel1_7">
+				 
+                      <input name="GridView1$ctl09$TextBox6" type="text" id="GridView1_TextBox6_7" /> 
+                      <input type="button" name="GridView1$ctl09$Button1" value="Button" onclick="javascript:__doPostBack(&#39;GridView1$ctl09$Button1&#39;,&#39;&#39;)" id="GridView1_Button1_7" /> 
+                          <input type="submit" name="GridView1$ctl09$Button2" value="下载" id="GridView1_Button2_7" />
+                      
+                     
+			</div> 
+                  </td>
+		</tr><tr style="color:#333333;background-color:#EFF3FB;">
+			<td>518       </td><td>&nbsp;</td><td>孙晓佳</td><td>软件五班</td><td>
+                     
+                      <div id="GridView1_Panel1_8">
+				 
+                      <input name="GridView1$ctl10$TextBox6" type="text" id="GridView1_TextBox6_8" /> 
+                      <input type="button" name="GridView1$ctl10$Button1" value="Button" onclick="javascript:__doPostBack(&#39;GridView1$ctl10$Button1&#39;,&#39;&#39;)" id="GridView1_Button1_8" /> 
+                          <input type="submit" name="GridView1$ctl10$Button2" value="下载" id="GridView1_Button2_8" />
+                      
+                     
+			</div> 
+                  </td>
+		</tr>
+	</table>
+</div>
+        <br /> 
+        <br /> 
+        <span id="Label1">Label</span> 
+
+     </div>
+
+
+    </form>
+</body>
+</html>

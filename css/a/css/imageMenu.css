@@ -1,0 +1,43 @@
+*{ margin:0; padding:0;}
+ul,li{ list-style:none;}
+
+#container{ width:500px; margin:100px auto; padding:10px;}
+
+#container h2{ margin-bottom:20px;}
+
+#imageMenu {position:relative;width:500px;height:200px;overflow:hidden;}
+
+#imageMenu ul {display:block;width:1000px;height:200px;}
+
+#imageMenu ul li {float: left;}
+
+#imageMenu ul li a {display:block;overflow:hidden;width:98px;height:200px;background-color:#FFF;border-right:2px solid #fff;cursor:pointer;text-indent:-1000px;}
+
+#imageMenu ul li.landscapes a {background:url(../images/landscapes.jpg) no-repeat;}
+
+#imageMenu ul li.people a {background:url(../images/people.jpg) no-repeat;}
+
+#imageMenu ul li.nature a {background:url(../images/nature.jpg) no-repeat;}
+
+#imageMenu ul li.urban a {background:url(../images/urban.jpg) no-repeat;}
+
+#imageMenu ul li.abstract a {background:url(../images/abstract.jpg) no-repeat;width:310px;}
+
+.clear {clear: both;}
+
+.login {
+	font-size: 16px;
+	color: #666;
+	margin-right: 15px;
+	margin-bottom: auto;
+	margin-top: 5px;
+	height: auto;
+	width: auto;	
+	float:right;
+}
+.login #navBar_login {
+	margin-left: 5px;
+}
+.login #navBar_reg {
+	margin-left: 5px;
+}
